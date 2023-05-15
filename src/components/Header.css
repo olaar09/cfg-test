@@ -1,0 +1,16 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: justified;
+    align-items: baseline;
+    padding: 2em;
+    background-color: black;
+    color: #f7ede5;
+    font-size: 10px
+    
+  }
+
+  img {
+    width: 170px
+  }

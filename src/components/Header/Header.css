@@ -1,0 +1,89 @@
+.nav-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 0.5em;
+  background-color: black;
+  color: #f7ede5;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  
+}
+
+
+.nav-container ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  color: #f7ede5;
+  gap: 15px;
+}
+
+.nav-links{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  color: #f7ede5;
+}
+
+.nav-links:hover{
+  color: #f7ede5;
+  text-decoration: underline;
+}
+
+
+.nav-logo {
+  color:  #f7ede5;
+}
+
+img {
+  width: 160px
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #f7ede5;
+}
+
+.SearchIcon {
+  margin: 10px;
+  width: 20px;
+}
+
+.modal-body, .modal-header {
+  background-color: #f7ede5;
+  font-family: 'Outfit', sans-serif;
+  font-weight: lighter;
+}
+
+.modal-body button {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  width: 175px;
+  background-color: black;
+  color: #f7ede5;
+  font-family: "Outfit", sans-serif;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.modal-body button:active {
+  transform: translateY(2px)
+}
+
+.modal-body button:hover {
+  background-color: #2b2520;
+}

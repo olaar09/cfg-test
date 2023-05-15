@@ -1,0 +1,148 @@
+.products {
+  background-color: #f8f7f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.products-list h1 {
+  border-bottom: 3px solid #0f0700;
+  width: 100%;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  padding-top: 5%;
+}
+
+.beauteProducts {
+  right: 0px;
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-color: #f7ede5;
+}
+
+.productsTitle {
+  margin-right: 20%;
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  font-size: 4vw;
+  margin-top: 11%;
+  margin-left: 14%;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  position: relative;
+  height: 500px;
+  background-color: #f7ede5;
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+}
+
+.lips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 8%;
+}
+
+.eyes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 8%;
+}
+
+.face {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+  margin-bottom: 10%;
+}
+
+.spacer {
+  width: 50px;
+}
+
+.products-list {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categories button {
+  display: flex; /* Make the button a flex container */
+  justify-content: center; /* Center the content along the main axis */
+  align-items: center; /* Center the content along the cross axis */
+  text-align: center;
+  margin: 0 20px;
+  margin-top: 30px;
+  height: 50px;
+  width: 250px;
+  background-color: #FFFFFF;
+  color: black;
+  font-family: "Outfit", sans-serif;
+  border: 2px solid black;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
+
+.categories button:hover {
+  background-color: black;
+  /* border: 2px solid #FFFFFF; */
+  color: #f7ede5;
+}
+
+.searchBarSection {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+
+
+.searchBar {
+  display: flex;
+  align-items: top;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 0px;
+  margin: 15px;
+}
+
+.input {
+  width: 250px;
+  border: none;
+  padding: 5px;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  text-indent: 5%;
+  
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  border-radius: 0px;
+}
+
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
